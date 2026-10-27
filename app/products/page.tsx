@@ -15,3 +15,7 @@ async function getData():  Promise<Payment[]> {
     }, as Payment,
   ]
 }
+
+export default async function ProductPage() {
+  return <div></div>
+}
