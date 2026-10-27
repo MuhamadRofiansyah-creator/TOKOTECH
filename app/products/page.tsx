@@ -9,6 +9,7 @@ async function getData():  Promise<Payment[]> {
   return [
     {
         id: "728ed52f",
+        amount: 100,
     }, as Payment,
   ]
 }
