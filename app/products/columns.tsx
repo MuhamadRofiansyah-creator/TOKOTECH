@@ -10,5 +10,7 @@ export type Product = {
 }
 
 export const columns: ColumnDef<Product>[] = [
-    {},
+    {
+        accessorKey: "status",
+    },
 ]
