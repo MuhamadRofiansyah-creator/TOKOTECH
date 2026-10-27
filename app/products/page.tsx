@@ -5,6 +5,6 @@ type Payment = {
            email: string
 }
 
-async function getData() {
+async function getData():  Promise<Payment[]> {
   return []
 }
