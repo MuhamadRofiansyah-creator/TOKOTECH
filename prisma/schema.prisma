@@ -19,10 +19,10 @@ model Product {
   category    Category
   stock       Int
   description String
+  categoryId Int
 
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
-  categoryId Int
 }
 
 model Category {
