@@ -2,4 +2,6 @@
 
 import { ColumnDef } from "@tanstack/react-table"
 
-export type Product = {}
+export type Product = {
+     id: string
+}
