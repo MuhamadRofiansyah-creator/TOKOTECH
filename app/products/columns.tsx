@@ -8,3 +8,5 @@ export type Product = {
       status: "pending" | "processing" | "success" | "failed"
        email: string
 }
+
+export const columns: ColumnDef<Product>[] = []
