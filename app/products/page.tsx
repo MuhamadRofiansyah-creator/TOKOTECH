@@ -6,5 +6,7 @@ type Payment = {
 }
 
 async function getData():  Promise<Payment[]> {
-  return []
+  return [
+    {},
+  ]
 }
