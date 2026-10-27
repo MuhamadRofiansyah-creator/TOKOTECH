@@ -16,5 +16,6 @@ export const columns: ColumnDef<Product>[] = [
     },
     {
         accessorKey: "email",
+        header: "Email",
     },
 ]
