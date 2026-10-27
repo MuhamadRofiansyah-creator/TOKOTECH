@@ -16,7 +16,7 @@ model Product {
   id          Int      @id @default(autoincrement())
   name        String
   price       Int
-  category    Category @relation(references: [id], fields: [id], onDelete: Cascade)
+  category    Category @relation(references: [id], fields: [cateogryId], onDelete: Cascade)
   stock       Int
   description String
   categoryId Int
