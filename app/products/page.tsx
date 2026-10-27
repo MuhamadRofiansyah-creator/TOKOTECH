@@ -19,7 +19,7 @@ async function getData():  Promise<Payment[]> {
 export default async function ProductPage() {
      const data = await getData()
 
-  return (<div className="container mx-auto">
+  return (<div className="container mx-auto py-10">
 
   </div>
   )
