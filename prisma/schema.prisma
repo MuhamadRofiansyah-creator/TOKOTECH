@@ -16,7 +16,7 @@ model Product {
   id          Int      @id @default(autoincrement())
   name        String
   price       Int
-  category    Category
+  category    Category @relation(references: [id], fields: [id])
   stock       Int
   description String
   categoryId Int
