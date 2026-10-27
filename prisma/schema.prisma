@@ -18,4 +18,7 @@ model Product {
     category Category
     stock    Int
     description String
+
+     createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
 }
