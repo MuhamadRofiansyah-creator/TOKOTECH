@@ -17,4 +17,5 @@ model Product {
    name String
     category Category
     stock    Int
+    description String
 }
