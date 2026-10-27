@@ -9,4 +9,6 @@ export type Product = {
        email: string
 }
 
-export const columns: ColumnDef<Product>[] = []
+export const columns: ColumnDef<Product>[] = [
+    {},
+]
