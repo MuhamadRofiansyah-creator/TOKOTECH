@@ -19,7 +19,7 @@ model Product {
   category    Category @relation(references: [id], fields: [categoryId], onDelete: Cascade)
   stock       Int
   description String
-  categoryId Int
+  categoryId  Int
 
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
