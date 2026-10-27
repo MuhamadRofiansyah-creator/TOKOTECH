@@ -20,5 +20,6 @@ export const columns: ColumnDef<Product>[] = [
     },
     {
         accessorKey: "amount",
+         header: "Amount",
     },
 ]
