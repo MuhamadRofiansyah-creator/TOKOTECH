@@ -17,8 +17,8 @@ export type Product = {
 const columnHelper = createColumnHelper<DataTableFeatures, Product>()
 
 export const columns = columnHelper.columns([
-  columnHelper.accessor("status", {
-    header: "Status",
+  columnHelper.accessor("name", {
+    header: "Name",
   }),
   columnHelper.accessor("email", {
     header: "Email",
