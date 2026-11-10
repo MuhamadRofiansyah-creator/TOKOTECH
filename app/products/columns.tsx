@@ -20,8 +20,8 @@ export const columns = columnHelper.columns([
   columnHelper.accessor("name", {
     header: "Name",
   }),
-  columnHelper.accessor("email", {
-    header: "Email",
+  columnHelper.accessor("price", {
+    header: "Price",
   }),
   columnHelper.accessor("amount", {
     header: "Amount",
