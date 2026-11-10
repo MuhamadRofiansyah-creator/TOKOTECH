@@ -20,4 +20,7 @@ export const columns = columnHelper.columns([
   columnHelper.accessor("email", {
     header: "Email",
   }),
+  columnHelper.accessor("amount", {
+    header: "Amount",
+  }),
 ])
