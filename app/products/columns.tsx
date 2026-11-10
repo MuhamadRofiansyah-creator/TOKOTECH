@@ -12,3 +12,5 @@ export type Payment = {
 }
 
 const columnHelper = createColumnHelper<Payment>()
+
+export const columns = columnHelper.columns([])
