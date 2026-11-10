@@ -9,7 +9,7 @@ import { type DataTableFeatures } from "./data-table-features"
 export type Product = {
   id: string
   amount: number
-  status: "pending" | "processing" | "success" | "failed"
+  price: number
   email: string
 }
 
