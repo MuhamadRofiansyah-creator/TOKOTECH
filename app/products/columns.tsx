@@ -1,21 +1,22 @@
+
 "use client"
 
 import { createColumnHelper } from "@tanstack/react-table"
 
 import { type DataTableFeatures } from "./data-table-features"
 
-// This type is used to define the shape of our data.
-// You can use a Zod schema here if you want.
+// Bentuk data produk
 export type Product = {
   id: string
-  amount: number
+  name: string
   price: number
   stock: number
 }
 
-// Use `accessor` for data columns and `display` for columns without one.
+// Membuat helper kolom
 const columnHelper = createColumnHelper<DataTableFeatures, Product>()
 
+// Daftar kolom tabel
 export const columns = columnHelper.columns([
   columnHelper.accessor("name", {
     header: "Name",
