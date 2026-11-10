@@ -10,7 +10,7 @@ export type Product = {
   id: string
   amount: number
   price: number
-  email: string
+  stock: number
 }
 
 // Use `accessor` for data columns and `display` for columns without one.
