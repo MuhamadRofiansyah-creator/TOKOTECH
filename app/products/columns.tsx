@@ -17,4 +17,7 @@ export const columns = columnHelper.columns([
   columnHelper.accessor("status", {
     header: "Status",
   }),
+  columnHelper.accessor("email", {
+    header: "Email",
+  }),
 ])
