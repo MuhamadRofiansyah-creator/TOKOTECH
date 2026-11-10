@@ -13,4 +13,8 @@ export type Payment = {
 
 const columnHelper = createColumnHelper<Payment>()
 
-export const columns = columnHelper.columns([])
+export const columns = columnHelper.columns([
+  columnHelper.accessor("status", {
+    header: "Status",
+  }),
+])
