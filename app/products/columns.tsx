@@ -10,3 +10,5 @@ export type Payment = {
    status: "pending" | "processing" | "success" | "failed"
    email: string
 }
+
+const columnHelper = createColumnHelper<Payment>()
