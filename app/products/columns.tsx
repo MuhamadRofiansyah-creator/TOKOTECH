@@ -23,7 +23,7 @@ export const columns = columnHelper.columns([
   columnHelper.accessor("price", {
     header: "Price",
   }),
-  columnHelper.accessor("amount", {
-    header: "Amount",
+  columnHelper.accessor("stock", {
+    header: "Stock",
   }),
 ])
