@@ -1,4 +1,5 @@
 
+import { Button } from "@/components/ui/button";
 import { columns, type Product } from "./columns"
 import { DataTable } from "./data-table"
 
@@ -26,9 +27,10 @@ const products: Product[] = [
 export default function ProductsPage() {
   return (
     <div className="container mx-auto py-10">
-      <h1 className="text-2xl font-bold mb-5">
-        Products
-      </h1>
+      <div className="flex w-full items-center justify-between py-6">
+        <h3 className="text-2xl">Products</h3>
+        <Button>Create new product</Button>
+      </div>
 
       <DataTable columns={columns} data={products} />
     </div>

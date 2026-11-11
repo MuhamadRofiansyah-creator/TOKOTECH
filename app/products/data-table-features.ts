@@ -2,11 +2,15 @@
 import {
   tableFeatures,
   columnVisibilityFeature,
+  rowPaginationFeature,
+  createPaginatedRowModel,
 } from "@tanstack/react-table"
 
-// Mengaktifkan fitur column visibility
+// Mengaktifkan fitur tabel
 export const features = tableFeatures({
   columnVisibilityFeature,
+  rowPaginationFeature,
+  paginatedRowModel: createPaginatedRowModel(),
 })
 
 // Tipe fitur untuk digunakan pada file lain
