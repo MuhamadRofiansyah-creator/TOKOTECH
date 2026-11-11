@@ -12,3 +12,15 @@ import {
 import { Field, FieldGroup } from "@/components/ui/field"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
+
+export function DialogDemo() {
+  return (
+    <Dialog>
+      <form>
+        <DialogTrigger render={<Button variant="outline">Open Dialog</Button>} />
+        <DialogContent className="sm:max-w-sm">
+        </DialogContent>
+      </form>
+    </Dialog>
+  )
+}
